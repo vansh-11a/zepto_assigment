@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.upper_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #27667977;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 10px;
+}
+
+.option_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.chip {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #efc7f7;
+    border-radius: 20px;
+    height: fit-content;
+    margin: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.chip:hover {
+    background-color: #fbf0fd;
+}
+
+.chip_click {
+    background-color: #efc7f7;
+}
+
+.chip_click:hover {
+    background-color: #efc7f7;
+}
+
+.chip_left {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip_right {
+    margin-left: 10px;
+}
+
+.input_field {
+    border: none;
+    width: 100%;
+}
+
+.input_field:focus {
+    outline: none;
+    border: none;
+}
+
+.empty_state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.drop_down_icon {
+    padding: 10px;
+    color: #27667977;
+    cursor: pointer;
+}
+
+.cliked_dropdown_icon {
+    transform: rotate(180deg);
+}
+
+.lower_container {
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 100;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: solid 0.5px #ededed;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.option:hover {
+    background-color: #fbf0fd;
+}
